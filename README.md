@@ -1,6 +1,9 @@
-# vim-haskell-cajon-de-sastre
+# vim-haskell-pica
 
-Bits and pieces of Haskell configuration for Vim, not amounting to a fully-featured plugin.
+Bits and pieces of Haskell configuration for Vim, not amounting to a
+fully-featured plugin.
+
+"pica" means "itches" in Spanish, it also can mean "tastes spicy".
 
 # dependencies
 
