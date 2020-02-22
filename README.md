@@ -22,3 +22,15 @@ version of the following plugins:
 # see also
 
 - [vim-textobj-do-block](https://github.com/danidiaz/vim-textobj-do-block) 
+
+# stuff I found useful while writing this plugin
+
+- `:h ftplugin` Remeber to use `:setlocal`.
+- `:h add-filetype-plugin`
+- `:h after-directory`
+- `:h fnamemodify`
+- [How to get path to the current vimscript being executed](https://stackoverflow.com/questions/4976776/how-to-get-path-to-the-current-vimscript-being-executed/18734557)
+- `:h dictionary`
+- `:h 'complete'`
+- `:h i_CTRL-X_CTRL-K`
+- `:h i_CTRL-X_CTRL-L`
