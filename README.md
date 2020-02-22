@@ -1,4 +1,5 @@
 # vim-haskell-cajon-de-sastre
+
 Bits and pieces of Haskell configuration for Vim, not amounting to a fully-featured plugin.
 
 # dependencies
@@ -11,6 +12,9 @@ version of the following plugins:
 # features
 
 - `yss#` to surround a sentence with those annoying-to-type `{-# ... #-}` thingies.
+
+- The names or all pragmas and all language extensions available for dictionary
+  completion. See `:h i_CTRL-X_CTRL-K`.
 
 # see also
 
