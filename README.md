@@ -3,7 +3,7 @@
 Bits and pieces of Haskell configuration for Vim, not amounting to a
 fully-featured plugin.
 
-"pica" means "itches" in Spanish, it also can mean "tastes spicy".
+"pica" means "itches" in Spanish, it also can mean "tastes spicy". 
 
 # dependencies
 
@@ -14,10 +14,17 @@ version of the following plugins:
 
 # features
 
+## in .hs files
+
 - `yss#` to surround a sentence with those annoying-to-type `{-# ... #-}` thingies.
 
-- The names or all pragmas and all language extensions available for dictionary
-  completion. See `:h i_CTRL-X_CTRL-K`.
+- The names or all pragmas and all language extensions are available for
+  dictionary completion. See `:h i_CTRL-X_CTRL-K`.
+
+## in .cabal files
+
+- The names or all cabal stanzas and fields, all language extensions, and all
+  GHC flags are available for dictionary completion. See `:h i_CTRL-X_CTRL-K`.
 
 # see also
 
@@ -34,3 +41,4 @@ version of the following plugins:
 - `:h 'complete'`
 - `:h i_CTRL-X_CTRL-K`
 - `:h i_CTRL-X_CTRL-L`
+- `%s#-\S*\zs.*\ze\t-\S*$##` To scrape GCH flags: keep the flag and the negated flag at the extremes, skip the rest.
