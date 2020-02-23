@@ -1,5 +1,3 @@
-let b:surround_35 = "{-# \r #-}"
-
 setlocal iskeyword+='
 
 let s:thisfolder = fnamemodify(resolve(expand('<sfile>:p')),':h')
