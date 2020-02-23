@@ -29,5 +29,15 @@ Useful dictionary/line Vim completions for Haskell.
 - `:h 'complete'`
 - `:h i_CTRL-X_CTRL-K`
 - `:h i_CTRL-X_CTRL-L`
-- `%s#-\S*\zs.*\ze\t-\S*$##` To scrape GCH flags: keep the flag and the negated flag at the extremes, skip the rest.
+- `%s#-\S*\zs.*\ze\t-\S*$##` To scrape GCH flags: keep the flag and the negated
+  flag at the extremes, skip the rest.
 - `:h 'iskeyword'`
+- `:h 'shortmess'` This option helps to avoid all the |hit-enter| prompts
+  caused by file messages 
+- `:h unlisted-buffers`
+- `:h new-unlisted-buffers`
+- `:h completeopt`
+- `:h completepopup`
+- [Vim Buffer FAQ](https://vim.fandom.com/wiki/Vim_buffer_FAQ) To display all
+  the buffers including unlisted buffers, use the ":buffers!" or ":ls!" or
+  ":files!" command.
