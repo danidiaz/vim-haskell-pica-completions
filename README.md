@@ -42,3 +42,4 @@ version of the following plugins:
 - `:h i_CTRL-X_CTRL-K`
 - `:h i_CTRL-X_CTRL-L`
 - `%s#-\S*\zs.*\ze\t-\S*$##` To scrape GCH flags: keep the flag and the negated flag at the extremes, skip the rest.
+- `:h 'iskeyword'`
