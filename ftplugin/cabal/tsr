@@ -1,0 +1,13 @@
+containers undordered-containers justified-containers
+unordered-containers hashable
+stm stm-chans async
+mtl transformers
+lens generic-lens
+microlens microlens-ghc microlens-mtl microlens-aeson microlens-th microlens-process
+sop-core generics-sop
+optparse-applicative optparse-generic
+aeson lens-aeson 
+directory filepath
+process typed-process
+base16 base16-lens base32 base32-lens
+pcre-light pcre-heavy lens-regex-pcre
