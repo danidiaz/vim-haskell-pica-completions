@@ -1,6 +1,6 @@
 # vim-haskell-pica-completions
 
-A bunch of useful Vim dictionary (`:h i_Ctrl-X_Ctrl-K`) and thesaurus (`:h i_Ctrl-X_Ctrl-T) completions for Haskell.
+A bunch of useful Vim dictionary (`:h i_Ctrl-X_Ctrl-K`) and thesaurus (`:h i_Ctrl-X_Ctrl-T`) completions for Haskell.
 
 - Doubting yet again between `MultiparamTypeClasses` and `MultiParamTypeClasses`? No worry, just type `Mu<Ctrl-X><Ctrl-K>` to autocomplete. All language extensions and its negations are available for dictionary completion.
 

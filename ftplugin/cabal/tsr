@@ -3,7 +3,7 @@ unordered-containers hashable
 stm stm-chans async
 lens generic-lens
 microlens microlens-ghc microlens-th
-mtl transformers microlens-mtl 
+mtl transformers mmorph microlens-mtl 
 optics generic-optics
 sop-core generics-sop
 optparse-applicative optparse-generic

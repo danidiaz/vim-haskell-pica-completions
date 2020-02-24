@@ -1,0 +1,54 @@
+
+*haskell-pica-completions.txt*  Dictionary and thesaurus completions for Haskell
+
+CONTENTS				     *haskell-pica-completions-contents*
+
+Introduction		|haskell-pica-completions-introduction|
+Haskell Files		|haskell-pica-completions-hs|
+Cabal Files		|haskell-pica-completions-cabal|
+Changelog		|haskell-pica-completions-changelog|
+
+==============================================================================
+INTRODUCTION				 *haskell-pica-completions-introduction*
+
+
+haskell-pica-completions is a Vim plugin which defines useful dictionary
+|i_CTRL-X_CTRL-K| and thesaurus |i_CTRL-X_CTRL-T| completions for Haskell.
+
+==============================================================================
+HASKELL FILES					   *haskell-pica-completions-hs*
+
+Dictionary completions for all language extensions and its negations.
+
+Dictionary completions for all language pragmas.
+
+Thesaurus completions for functions related to certain types. See the file
+ftplugin/haskell/tsr for details.
+
+The single quote char "'" is added locally to 'iskeyword'.
+
+==============================================================================
+CABAL FILES				 	*haskell-pica-completions-cabal*
+
+Dictionary completions for all stanza names and its fields.
+
+Dictionary completions for all GHC flags.
+
+Dictionary completions for some packages. See the file
+ftplugin/cabal/packages.dict for details.
+
+Dictionary completion of "Haskell2010".
+
+Thesaurus completions for packages frequently associated to other packages.
+See the file ftplugin/cabal/tsr for details.
+
+The hypen "-" is added locally to 'iskeyword'.
+>
+==============================================================================
+CHANGELOG				    *haskell-pica-completions-changelog*
+
+1.0.0	2020-02-24		      *haskell-pica-completions-changelog-1.0.0*
+	- First release.
+
+==============================================================================
+vim:tw=78:ts=8:ft=help:norl:fen:fdl=0:fdm=marker:noet:
