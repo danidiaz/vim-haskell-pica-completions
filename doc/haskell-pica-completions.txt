@@ -43,7 +43,7 @@ Thesaurus completions for packages frequently associated to other packages.
 See the file ftplugin/cabal/tsr for details.
 
 The hypen "-" is added locally to 'iskeyword'.
->
+
 ==============================================================================
 CHANGELOG				    *haskell-pica-completions-changelog*
 
