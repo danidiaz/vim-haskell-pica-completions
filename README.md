@@ -2,7 +2,7 @@
 
 A bunch of useful Vim dictionary (`:h i_Ctrl-X_Ctrl-K`) and thesaurus (`:h i_Ctrl-X_Ctrl-T`) completions for Haskell.
 
-- Doubting yet again between `MultiparamTypeClasses` and `MultiParamTypeClasses`? No worry, just type `Mu<Ctrl-X><Ctrl-K>` to autocomplete. All language extensions and its negations are available for dictionary completion.
+- Doubting yet again between `MultiparamTypeClasses` and `MultiParamTypeClasses`? No worry, just type `Mu<Ctrl-X><Ctrl-K>` to autocomplete. All language extensions and their negations are available for dictionary completion.
 
 - Evergreen cabal file dilemma: is it **aeson-lens** or **lens-aeson**? Better type `aeson<Ctrl-X><Ctrl-T>` and the correct alternative will appear as a synonym. Many groups of related packages are available for thesaurus completion.
 

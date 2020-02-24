@@ -18,7 +18,7 @@ haskell-pica-completions is a Vim plugin which defines useful dictionary
 ==============================================================================
 HASKELL FILES					   *haskell-pica-completions-hs*
 
-Dictionary completions for all language extensions and its negations.
+Dictionary completions for all language extensions and their negations.
 
 Dictionary completions for all language pragmas.
 
