@@ -1,18 +1,38 @@
 # vim-haskell-pica-completions
 
-Useful dictionary/line Vim completions for Haskell.
+A bunch of useful Vim dictionary (`:h i_Ctrl-X_Ctrl-K`) and thesaurus (`:h i_Ctrl-X_Ctrl-T) completions for Haskell.
 
-# features
+- Doubting yet again between `MultiparamTypeClasses` and `MultiParamTypeClasses`? No worry, just type `Mu<Ctrl-X><Ctrl-K>` to autocomplete. All language extensions and its negations are available for dictionary completion.
 
-## in .hs files
+- Evergreen cabal file dilemma: is it **aeson-lens** or **lens-aeson**? Better type `aeson<Ctrl-X><Ctrl-T>` and the correct alternative will appear as a synonym. Many groups of related packages are available for thesaurus completion.
 
-- The names or all pragmas and all language extensions are available for
-  dictionary completion. See `:h i_CTRL-X_CTRL-K`.
+For more information, see the plugin documentation.
 
-## in .cabal files
+# is this a good use of thesarurus completion?
 
-- The names or all cabal stanzas and fields, all language extensions, and all
-  GHC flags are available for dictionary completion. See `:h i_CTRL-X_CTRL-K`.
+I think yes, Vim's own help (`:h i_Ctrl-X_Ctrl-T`) states that:
+
+> Other uses include translation between two languages, or grouping API functions by keyword.
+
+In fact thesaurus completion is also performed in **.hs** files for functions related to types like `MVar`, `TVar`, `Chan`, `Concurrently`...
+
+# changes to 'iskeyword'
+
+- This plugin adds the single quote `'` to `iskeyword` for **.hs** files (reasonable, because it is a valid part of identifiers).
+
+- This plugin adds the hypen `-` to `iskeyword` for **.cabal** files (reasonable, because many stanza names and package names have hypens).
+
+These changes were required for some completions to work. They affect the behaviour of commands like normal mode `w`. See `:h 'iskeyword'`. 
+
+# extra tip
+
+nano-annoyed at having to write those `{-# #-}` for language pragmas in #haskell?
+
+Try this bit of Vim [surround](https://github.com/tpope/vim-surround) plugin configuration:
+
+    let b:surround_35 = "{-# \r #-}"
+
+Now you can type `yss#` in normal mode to surround a sentence.
 
 # see also
 

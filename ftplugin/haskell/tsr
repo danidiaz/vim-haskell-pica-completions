@@ -1,13 +1,13 @@
+StateT runStateT evalStateT execStateT mapStateT withStateT get put modify modify' gets 
+WriterT runWriterT execWriterT mapWriterT tell listen listens pass censor  
+ReaderT runReaderT mapReaderT withReaderTSource ask local asks
+ExceptT runExceptT mapExceptT withExceptT throwE catchE
 IORef newIORef readIORef writeIORef modifyIORef modifyIORef' atomicModifyIORef atomicModifyIORef' atomicWriteIORef 
 STRef newSTRef readSTRef writeSTRef modifySTRef modifySTRef' 
 Chan newChan writeChan readChan dupChan writeList2Chan 
 MVar newEmptyMVar newMVar takeMVar putMVar readMVar swapMVar tryTakeMVar tryPutMVar isEmptyMVar withMVar withMVarMasked modifyMVar_ modifyMVar modifyMVarMasked_ modifyMVarMasked tryReadMVar 
 QSem newQSem waitQSem signalQSem 
 QSemN newQSemN waitQSemN signalQSemN
-StateT runStateT evalStateT execStateT mapStateT withStateT get put modify modify' gets 
-WriterT runWriterT execWriterT mapWriterT tell listen listens pass censor  
-ReaderT runReaderT mapReaderT withReaderTSource ask local asks
-ExceptT runExceptT mapExceptT withExceptT throwE catchE
 TVar newTVar newTVarIO readTVar readTVarIO writeTVar modifyTVar modifyTVar' stateTVar swapTVar 
 TMVar newTMVar newEmptyTMVar newTMVarIO newEmptyTMVarIO takeTMVar putTMVar readTMVar tryReadTMVar swapTMVar tryTakeTMVar tryPutTMVar isEmptyTMVar
 TSem newTSem waitTSem signalTSem signalTSemN 
@@ -19,3 +19,5 @@ TBMChan newTBMChan newTBMChanIO readTBMChan tryReadTBMChan peekTBMChan tryPeekTB
 TBMQueue newTBMQueue newTBMQueueIO readTBMQueue tryReadTBMQueue peekTBMQueue tryPeekTBMQueue writeTBMQueue tryWriteTBMQueue unGetTBMQueue closeTBMQueue isClosedTBMQueue isEmptyTBMQueue isFullTBMQueue 
 TMChan newTMChan newTMChanIO dupTMChan newBroadcastTMChan newBroadcastTMChanIO readTMChan tryReadTMChan peekTMChan tryPeekTMChan writeTMChan unGetTMChan closeTMChan isClosedTMChan isEmptyTMChan 
 TMQueue newTMQueue newTMQueueIO readTMQueue tryReadTMQueue peekTMQueue tryPeekTMQueue writeTMQueue unGetTMQueue closeTMQueue isClosedTMQueue isEmptyTMQueue 
+Async async withAsync wait poll waitCatch cancel waitAny waitAnyCatch waitAnyCancel waitAnyCatchCancel waitEither waitEitherCatch waitEitherCancel waitEitherCatchCancel waitEither_ waitBoth link linkOnly link2 link2Only
+Concurrently runConcurrently race race_ concurrently concurrently_ mapConcurrently mapConcurrently_  forConcurrently forConcurrently_ replicateConcurrently replicateConcurrently_
