@@ -26,7 +26,7 @@ These changes were required for some completions to work. They affect the behavi
 
 # extra tip
 
-nano-annoyed at having to write those `{-# #-}` for language pragmas in #haskell?
+nano-annoyed at having to write those `{-# #-}` for language pragmas?
 
 Try this bit of Vim [surround](https://github.com/tpope/vim-surround) plugin configuration:
 
