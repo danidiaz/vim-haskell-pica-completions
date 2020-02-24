@@ -8,7 +8,7 @@ A bunch of useful Vim dictionary (`:h i_Ctrl-X_Ctrl-K`) and thesaurus (`:h i_Ctr
 
 For more information, see the plugin documentation.
 
-# is this a good use of thesarurus completion?
+# is this a good use of thesaurus completion?
 
 I think yes, Vim's own help (`:h i_Ctrl-X_Ctrl-T`) states that:
 
