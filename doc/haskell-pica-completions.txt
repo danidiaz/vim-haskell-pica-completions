@@ -40,8 +40,9 @@ Dictionary completions for
 >
     Haskell2010
 <
-Thesaurus completions for packages. It groups packages frequently used
-together, or otherwise related. See the file ftplugin/cabal/tsr for details.
+Thesaurus completions for packages. It groups packages that are frequently
+used together, or otherwise related. See the file ftplugin/cabal/tsr for
+details.
 
 The hypen "-" is added locally to 'iskeyword'.
 
