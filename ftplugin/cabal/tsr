@@ -27,3 +27,4 @@ blaze servant-blaze
 haskeline repline
 these semialign semialign-extras these-skinny
 ghc ghc-lib-parser
+monoid-subclasses

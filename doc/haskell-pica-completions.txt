@@ -36,20 +36,18 @@ Dictionary completions for all GHC flags.
 
 Dictionary completions for all language extensions and their negations.
 
-Dictionary completions for some packages. See the file
-ftplugin/cabal/packages.dict for details.
-
 Dictionary completion of "Haskell2010".
 
-Thesaurus completions for packages frequently associated to other packages.
-See the file ftplugin/cabal/tsr for details.
+Thesaurus completions for packages. It groups packages frequently used
+together, or otherwise related. See the file ftplugin/cabal/tsr for details.
 
 The hypen "-" is added locally to 'iskeyword'.
 
 ==============================================================================
 CHANGELOG				    *haskell-pica-completions-changelog*
 
-1.1.0	xxxx-xx-xx		      *haskell-pica-completions-changelog-1.1.0*
+2.0.0	xxxx-xx-xx		      *haskell-pica-completions-changelog-1.1.0*
+	- Packages in .cabal files are now completed only via thesaurus.
 	- Some more package synonyms.
 
 1.0.0	2020-02-24		      *haskell-pica-completions-changelog-1.0.0*
