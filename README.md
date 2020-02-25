@@ -49,8 +49,8 @@ Now you can type `yss#` in normal mode to surround a sentence.
 - `:h 'complete'`
 - `:h i_CTRL-X_CTRL-K`
 - `:h i_CTRL-X_CTRL-L`
-- `%s#-\S*\zs.*\ze\t-\S*$##` To scrape GCH flags: keep the flag and the negated
-  flag at the extremes, skip the rest.
+- `%s#-\S*\zs.*\ze\t-\S*$##` To scrape GHC flags from the user guide: keep the
+  flag and the negated flag at the extreme, delete everything in the middle.
 - `:h 'iskeyword'`
 - `:h 'shortmess'` This option helps to avoid all the |hit-enter| prompts
   caused by file messages 
