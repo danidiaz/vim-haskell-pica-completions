@@ -34,6 +34,8 @@ Dictionary completions for all stanza names and its fields.
 
 Dictionary completions for all GHC flags.
 
+Dictionary completions for all language extensions and their negations.
+
 Dictionary completions for some packages. See the file
 ftplugin/cabal/packages.dict for details.
 
