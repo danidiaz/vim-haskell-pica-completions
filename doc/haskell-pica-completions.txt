@@ -30,7 +30,7 @@ The single quote char "'" is added locally to 'iskeyword'.
 ==============================================================================
 CABAL FILES				 	*haskell-pica-completions-cabal*
 
-Dictionary completions for all stanza names and its fields.
+Dictionary completions for all stanza names and their fields.
 
 Dictionary completions for all GHC flags.
 
