@@ -2,9 +2,9 @@ containers undordered-containers justified-containers
 unordered-containers hashable
 stm stm-chans async
 lens generic-lens
+optics generic-optics
 microlens microlens-ghc microlens-th
 mtl transformers mmorph microlens-mtl 
-optics generic-optics
 sop-core generics-sop
 optparse-applicative optparse-generic
 aeson lens-aeson microlens-aeson 
@@ -13,9 +13,14 @@ process typed-process microlens-process
 base16 base16-lens base32 base32-lens
 pcre-light pcre-heavy lens-regex-pcre
 rio unliftio unliftio-core
-servant servant-client servant-server servant-docs servant-swagger servant-lucid servant-blaze servant-auth servant-auth-server servant-quickcheck servant-js servant-multipart servant-elm
+servant servant-client servant-server servant-docs servant-swagger servant-auth servant-auth-server servant-js servant-multipart servant-elm servant-quickcheck 
 comonad distributive contravariant free bifunctors profunctors adjunctions kan-extensions semigroupoids
 tasty tasty-golden
 hunit tasty-hunit
-Quickcheck tasty-quickcheck quickcheck-higherorder test-fun quickcheck-state-machine
+Quickcheck tasty-quickcheck quickcheck-state-machine quickcheck-higherorder test-fun 
 hedgehog tasty-hedgehog  
+lucid servant-lucid 
+blaze servant-blaze
+warp warp-tls 
+wai wai-extra wai-app-static wai-logger wai-routes wai-cors
+websockets wai-websockets 
