@@ -39,11 +39,6 @@ Dictionary completions for all language extensions and their negations.
 Dictionary completions for
 >
     Haskell2010
-    BSD3
-    CHANGELOG
-    README
-    Simple
-    Custom
 
 Thesaurus completions for packages. It groups packages frequently used
 together, or otherwise related. See the file ftplugin/cabal/tsr for details.
