@@ -1,3 +1,5 @@
+**WHEEL REINVENTION ALERT!** Turns out that out-of-the-box omnicompletion (`:h i_Ctrl-X_Ctrl-O`) already does many of the things this plugin does. See [here](https://twitter.com/Liskni_si/status/1232255744512331778). 
+
 # vim-haskell-pica-completions
 
 A bunch of useful Vim dictionary (`:h i_Ctrl-X_Ctrl-K`) and thesaurus (`:h i_Ctrl-X_Ctrl-T`) completions for Haskell.
