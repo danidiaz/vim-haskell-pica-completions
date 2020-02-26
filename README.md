@@ -38,6 +38,8 @@ Now you can type `yss#` in normal mode to surround a sentence.
 
 # see also
 
+- [vim-haskell-pica-filetypes](https://github.com/danidiaz/vim-haskell-pica-filetypes) Filetype detection for Cabal configuration files and cabal.project files.
+
 - [vim-textobj-do-block](https://github.com/danidiaz/vim-textobj-do-block) 
 
 # stuff I found useful while writing this plugin
