@@ -22,9 +22,7 @@ In fact thesaurus completion is also performed in **.hs** files for functions re
 
 - This plugin adds the single quote `'` to `iskeyword` for **.hs** files (reasonable, because it is a valid part of identifiers).
 
-- This plugin adds the hypen `-` to `iskeyword` for **.cabal**,
-  **project.cabal** and *cabal/config** files (reasonable, because many stanza
-  names and package names have hypens).
+- This plugin adds the hypen `-` to `iskeyword` for **.cabal** files (reasonable, because many stanza names and package names have hypens).
 
 These changes were required for some completions to work. They affect the behaviour of commands like normal mode `w`. See `:h 'iskeyword'`. 
 
