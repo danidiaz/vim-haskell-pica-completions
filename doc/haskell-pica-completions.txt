@@ -7,6 +7,7 @@ Introduction		|haskell-pica-completions-introduction|
 Haskell Files		|haskell-pica-completions-hs|
 Cabal Files		|haskell-pica-completions-cabal|
 Cabal Project Files	|haskell-pica-completions-cabal-project|
+Cabal Config Files	|haskell-pica-completions-cabal-config|
 Changelog		|haskell-pica-completions-changelog|
 
 ==============================================================================
@@ -55,12 +56,25 @@ haskell-pica-filetypes plugin for that.)
 
 Dictionary completions for all stanza names and their fields.
 
-Thesaurus completions for packages, as for cabal files.
+Thesaurus completions for packages, like in cabal files.
+
+The hypen "-" is added locally to 'iskeyword'.
+
+==============================================================================
+CABAL CONFIG FILES  			*haskell-pica-completions-cabal-config*
+
+(This plugin doesn't itself handle detection of this filetype, see the
+haskell-pica-filetypes plugin for that.)
+
+Dictionary completions for all stanza names and their fields.
 
 The hypen "-" is added locally to 'iskeyword'.
 
 ==============================================================================
 CHANGELOG				    *haskell-pica-completions-changelog*
+
+2.1.0	2020-xx-xx
+	- dictionary completion for cabal config files.
 
 2.0.0	2020-02-26
 	- completions for the cabal-project filetype.
