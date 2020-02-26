@@ -67,3 +67,5 @@ Now you can type `yss#` in normal mode to surround a sentence.
 
 > Where the difference between these two types of completion manifests itself, is the purpose of completion. User-defined completion should be customized by the user themselves according to conditions specific to particular completion idea. Omni completion is supposed to be filetype-specific.
 
+- `:h complete-functions`
+- `:h complete-items`
