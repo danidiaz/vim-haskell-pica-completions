@@ -22,7 +22,9 @@ In fact thesaurus completion is also performed in **.hs** files for functions re
 
 - This plugin adds the single quote `'` to `iskeyword` for **.hs** files (reasonable, because it is a valid part of identifiers).
 
-- This plugin adds the hypen `-` to `iskeyword` for **.cabal** files (reasonable, because many stanza names and package names have hypens).
+- This plugin adds the hypen `-` to `iskeyword` for **.cabal**,
+  **project.cabal** and *cabal/config** files (reasonable, because many stanza
+  names and package names have hypens).
 
 These changes were required for some completions to work. They affect the behaviour of commands like normal mode `w`. See `:h 'iskeyword'`. 
 
@@ -38,7 +40,9 @@ Now you can type `yss#` in normal mode to surround a sentence.
 
 # see also
 
-- [vim-haskell-pica-filetypes](https://github.com/danidiaz/vim-haskell-pica-filetypes) Filetype detection for Cabal configuration files and cabal.project files.
+- [vim-haskell-pica-filetypes](https://github.com/danidiaz/vim-haskell-pica-filetypes)
+  Filetype detection for Cabal configuration files and cabal.project files,
+  which this plugin doesn't handle by itself.
 
 - [vim-textobj-do-block](https://github.com/danidiaz/vim-textobj-do-block) 
 
