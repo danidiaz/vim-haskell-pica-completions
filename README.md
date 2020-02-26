@@ -63,3 +63,7 @@ Now you can type `yss#` in normal mode to surround a sentence.
 - [Vim Buffer FAQ](https://vim.fandom.com/wiki/Vim_buffer_FAQ) To display all
   the buffers including unlisted buffers, use the ":buffers!" or ":ls!" or
   ":files!" command.
+- [What's the difference between omnifunc and completefunc except the invocation key mapping?](https://stackoverflow.com/questions/6941842/whats-the-difference-between-omnifunc-and-completefunc-except-the-invocation-ke)
+
+> Where the difference between these two types of completion manifests itself, is the purpose of completion. User-defined completion should be customized by the user themselves according to conditions specific to particular completion idea. Omni completion is supposed to be filetype-specific.
+
